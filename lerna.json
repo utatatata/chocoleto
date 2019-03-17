@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-lockfile"
+      ]
+    },
+    "publish": {
+       "ignoreChanges": [
+         "*.md",
+         "*.txt",
+         "__tests__/**"
+       ]
+    }
+  },
+  "packages": [
+    "packages/*",
+    "packages/@chocoleto/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true
+}
