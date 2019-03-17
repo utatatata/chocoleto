@@ -12,6 +12,7 @@
   ],
   "license": "MIT",
   "main": "lib/config.js",
+  "types": "lib/config.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

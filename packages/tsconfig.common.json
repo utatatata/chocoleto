@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declarationMap": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2018",
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": false,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "lib": ["es2018"],
+    "baseUrl": "."
+  },
+  "includes": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts", "**/*.spec.ts"]
+}
+

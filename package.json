@@ -8,7 +8,16 @@
     "packages/*",
     "packages/@chocoleto/*"
   ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "tsc -b",
+    "start": "tsc -b -w",
+    "clean": "lerna clean -y && rimraf packages/*/lib packages/@chocoleto/*/lib"
+  },
   "devDependencies": {
-    "lerna": "^3.13.1"
+    "@types/node": "^11.11.3",
+    "lerna": "^3.13.1",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.3333"
   }
 }

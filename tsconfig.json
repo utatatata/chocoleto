@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/@chocoleto/api" },
+    { "path": "packages/@chocoleto/cli" },
+    { "path": "packages/@chocoleto/config" },
+    { "path": "packages/@chocoleto/core" },
+    { "path": "packages/chocoleto" },
+    { "path": "packages/chocoleto-cli" }
+  ]
+}
