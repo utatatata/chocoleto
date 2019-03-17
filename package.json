@@ -11,6 +11,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "tsc -b",
+    "rebuild": "yarn clean && yarn build",
     "start": "tsc -b -w",
     "clean": "lerna clean -y && rimraf packages/*/lib packages/@chocoleto/*/lib"
   },
