@@ -1,0 +1,10 @@
+{
+  "name": "chocoleto",
+  "version": "0.0.0",
+  "description": "A static site generator.",
+  "main": "index.js",
+  "bin": "bin/chocoleto",
+  "repository": "git@github.com.utatatata:utatatata/chocoleto.git",
+  "author": "utakuma <i@utakuma.info>",
+  "license": "MIT"
+}
